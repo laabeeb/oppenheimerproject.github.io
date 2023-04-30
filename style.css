@@ -1,0 +1,275 @@
+@import url(https://fonts.adobe.com/fonts/cc-deadline-variable);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.home{
+    height: 99.8vh;
+    background-image: url(Assets/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 14px 5px 70px #000000;
+
+}
+
+
+
+.home nav img{
+    width: 550px;
+
+}
+
+
+.home nav img:hover{
+    transition: all 0.2s ease-in-out;
+    opacity: 70%;
+}
+
+
+.home nav{
+    z-index: 90;
+    position: fixed;
+    backdrop-filter: blur(5px);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px;
+}
+
+
+
+
+.home nav ul{
+    display: flex;
+    padding-left: 280px;
+}
+
+
+.home nav ul li {
+    list-style-type: none;
+    padding:0 25px;
+    font-size: 23px;
+    font-family: 'Electrolize', sans-serif;
+    letter-spacing: 5px;
+}
+
+
+.home nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 4px 5px 7px #000000;
+}
+
+
+.home nav ul li a:hover{
+    transition: all 0.2s ease-in;
+    color:rgb(242, 6, 6);
+}
+
+
+
+.about{
+    display: inline;
+    font-family: 'Goldman', cursive;
+    position: absolute;
+    top: 140px;
+    left: 450px;
+    font-size: 25px;
+    color: white;
+    margin: auto;
+}
+
+
+.about span:nth-child(4){
+    margin-left: 100px; 
+}
+
+
+.anotherquote{
+    color: rgb(217, 186, 125);
+    text-shadow: 9px 9px 17px #ede689;;
+    text-align: center;
+    font-size:30px;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 5px;
+    padding-top: 225px;
+}
+
+
+.anotherquote span:nth-child(1){
+    color:#FF0000;
+    text-shadow: 6px 6px 20px #FF0000;
+}
+
+
+.anotherquote span:nth-child(2){
+    color: #ffbb00;
+    text-shadow: 16px 16px 19px #ffbb00;
+}
+
+.quote{
+    margin: 50px 50px;
+    position: absolute;
+    font-size: 74.6px;
+    color:white;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.quote span{
+    color: red;
+    font-weight:bold;
+    text-shadow: 6px 6px 20px #FF0000;
+}
+
+
+.Director {
+    margin: 50px ;
+    display: flex;
+}
+
+
+.Director p{
+    font-size: 30px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+
+.Director img{
+    width: 800px;
+    margin-top: 70px;
+    margin-left: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 14px 15px 107px #000000;
+}
+
+
+.Director img:hover{
+    transition: all 0.2s ease-in-out;
+    width: 805px;
+    height: auto;
+    /* margin-left: 100px; */
+    /* margin-top: 70px; */
+    box-shadow: 17px 19px 115px #000000;
+}
+
+
+.imgs{
+    /* display: flex;
+    position: relative; */
+    padding-top: -150px;
+    text-align: center;
+}
+
+
+.imgs a{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    margin: 0 30px;
+    box-shadow: 0 20px 20px 12px rgba(0, 0, 0,0,0.3);
+}
+
+
+
+.imgs a img{
+    width: 300px;
+    height: 400px;
+    /* float: left; */
+    margin:30px auto;
+    box-shadow: 2px 2px 30px #000000;
+}
+
+
+.imgs a span{
+    background: linear-gradient(to bottom, transparent 15%, black);
+    width: 100%;
+    margin-left: -100%;
+    position: absolute;
+    display: inline;
+    height: 108%;
+    color: #ffff;
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+    transition-delay: 0.25s;
+}
+
+
+
+.imgs a span p {
+
+    position: absolute;
+    font-family: 'Bruno Ace SC', cursive;
+    width: 100%;
+    text-align: center;
+    height: 20%;
+    opacity: 0;
+    bottom: 0;
+    display: block;
+    transition: 0.5s;
+    font-size: 25px;
+
+}
+
+
+.imgs a span:hover{
+    opacity: 1;
+    transition: opacity 0.2s ease-out;
+}
+
+
+.imgs a span:hover p{
+    opacity: 1;
+    /* bottom: 25px; */
+    transition: 0.5s;
+}
+
+
+.sec-two{
+    margin-top: 30px;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 17px #000000;
+}
+
+
+footer{
+    margin-top: 20px;
+    border: 1px solid red;
+    background-color: black;
+}
+
+.name{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Goldman', cursive;
+    color: white;
+    text-shadow: 1px 1px 5px #dedada;
+}
+
+
+.name span:nth-child(1){
+    color: #FF0000;
+    text-shadow: 6px 6px 20px #FF0000;
+}
+
+
+.name span:nth-child(2){
+    color: rgb(1, 1, 255);
+    text-shadow: 6px 6px 20px #1900ff;
+}
+
+
